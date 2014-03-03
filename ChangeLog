@@ -1,0 +1,5 @@
+1.0.0:
+
+2014-02-26  Björn Bilger  <software.bbilger@gmail.com>
+
+	* Initial creation - based on Tinkerforge's C/C++ binding version 2.0.13

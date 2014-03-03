@@ -1,0 +1,4 @@
+libtinkerforge, version 1.0.0
+
+libtinkerforge offers a shared library
+for Tinkerforge's C/C++ bindings.

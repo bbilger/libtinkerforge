@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: @PACKAGE_NAME@
+Description: libtinkerforge - shared library for Tinkerforge's C/C++ bindings
+Version: @PACKAGE_VERSION@
+URL: @PACKAGE_URL@
+Libs: -L${libdir} -ltinkerforge-@TINKERFORGE_API_VERSION@
+Cflags: -I${includedir}/tinkerforge-@TINKERFORGE_API_VERSION@ -I${libdir}/tinkerforge-@TINKERFORGE_API_VERSION@/include

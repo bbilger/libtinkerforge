@@ -1,4 +1,4 @@
-# Object files
+*# Object files
 *.o
 *.ko
 
@@ -16,3 +16,39 @@
 *.exe
 *.out
 *.app
+
+
+Makefile.in
+
+
+/autom4te.cache/
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+/stamp-h*
+
+/ltmain.sh
+/decomp
+/missing
+/.deps
+/config.guess
+/config.sub
+/config.log
+/*.pc
+/libtool
+/config.status
+config.h.in
+
+.deps/
+.libs/
+.dirstamp
+doc-pak/
+
+*~
+*.lo
+*.la
+
+
