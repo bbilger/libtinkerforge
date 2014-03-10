@@ -16,9 +16,10 @@ were released under public domain. [2]
 	3. Chnage into the directory.
 	4. ./configure 
 	5. make 
-	6. Finally run one of the following commands
+	6. Run one of the following commands
 		a. make install # as root; e.g. sudo make install
 		b. checkinstall # as root; e.g. sudo checkinstall
+	7. ldconfig # as root; e.g. sudo ldconf 
 
 ### Git Repository
 	1. Clone the repository.
@@ -27,6 +28,7 @@ were released under public domain. [2]
 	4. ./configure
 	5. make 
 	6. make install # as root; e.g. sudo make install
+	7. ldconfig # as root; e.g. sudo ldconf 
 
 [1]: http://www.tinkerforge.com/en/doc/Software/API_Bindings_C.html
 [2]: http://www.tinkerforge.com/en/home/what_is_tinkerforge/
